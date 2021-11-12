@@ -1,0 +1,163 @@
+*{
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+html,body{
+    overflow-x: hidden;
+}
+body{
+    margin: 0px;
+    overflow-x: hidden;
+}
+.main{
+    position: relative;
+}
+
+.block{
+    background-color: rgb(0, 162, 255);
+    float:left;
+    display: inline;
+    width: 10%;
+    padding: 5% ;
+  
+
+}
+
+.block .circle-icon {
+    background-color: white;
+    padding: 10px 12px;
+    border-radius: 50%;
+}
+.block .fas,
+.container2 .imageIcon >i{
+    color: rgb(0, 162, 255);
+}
+
+.container2{
+    float:right;
+    width: 30%;
+    
+}
+
+.container2 .circle-icon {
+    background-color:rgb(0, 162, 255);
+    padding: 10px 10px;
+    border-radius: 50%;
+}
+.container2 .fas{
+    color: white;
+    align-items: center;
+
+}
+
+.container2{
+    display:block;
+    position: relative;
+    
+    
+}
+.container2 .imageIcon {
+   
+    float: right;
+    margin-right: 15px;
+    margin-top: 15px;
+    
+    
+}
+.container2 .secondBlock{
+    
+    display: inline-block;
+    padding: 8% 11% ;
+
+    
+}
+
+
+
+.container1 .internal2{
+    display: flex;
+    align-items: center;
+}
+a:hover i {
+    transform: scale(1.2);
+}
+.search:hover{
+    color: blue;
+   
+}
+.lock:hover{
+    color:blue;
+}
+
+.secondBlock .internal{
+    display: flex;
+    align-items: center;
+    overflow-y: hidden;
+
+   
+    gap: 20px;
+}
+.secondBlock .internal >i{
+    height: 16px;
+    width: 16px;
+}
+.internal2 >p,
+.internal >p{
+    text-indent: 20px;
+}
+
+.section-container
+{
+--bs-gutter-x: 1.5rem;
+--bs-gutter-y: 0;
+display: flex;
+flex-wrap: wrap;
+position:relative;1
+}
+.section-container .container2
+{
+flex:0 0 auto;
+width:60%;
+}
+.section-container .block
+{
+flex:0 0 auto;
+width:50%;
+}
+.section-container .block .container2
+{
+padding:40px 50px;
+}
+
+.section-container .block h1
+{
+font-weight:700;
+font-size:25px;
+margin-bottom:20px;
+}
+
+@media screen and (max-width:643px)
+{
+.section-container
+{
+flex-flow:row wrap;
+}
+
+.section-container .block
+{
+display:block;
+order:2;
+width:50%;
+}
+.section-container .container2
+{
+padding:15px 35px;
+}
+.section-container .container1  h5
+{
+margin-bottom:5px;
+}
+}
+.complete {
+    display: inline-block;
+    font-size: small;
+}

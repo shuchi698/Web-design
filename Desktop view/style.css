@@ -1,0 +1,92 @@
+*{
+	font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+body{
+    margin: 0px;
+}
+.main{
+    display: flex;
+    height: 580px;
+    margin: 20px;
+}
+
+.block{
+    background-color: rgb(0, 162, 255);
+    float:left;
+    display: inline;
+    width: 45%;
+    padding: 10% 5% 5% 5%;
+  
+
+}
+.block .circle-icon {
+    background-color: white;
+    padding: 10px 12px;
+    border-radius: 50%;
+}
+.block .fas,
+.container2 .imageIcon >i{
+    color: rgb(0, 162, 255);
+}
+
+.container2{
+    float:right;
+    width: 50%;
+}
+
+.container2 .circle-icon {
+    background-color:rgb(0, 162, 255);
+    padding: 10px 10px;
+    border-radius: 50%;
+}
+.container2 .fas{
+    color: white;
+    align-items: center;
+
+}
+
+.container2{
+    display:block;
+}
+.container2 .imageIcon {
+   
+    float: right;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+.container2 .secondBlock{
+    
+    display: inline-block;
+    padding: 22% 10% 8% 12%;
+    height: 380px;
+}
+.container1 .internal2{
+    display: flex;
+    align-items: center;
+}
+a:hover i {
+    transform: scale(1.2);
+}
+.search:hover{
+    color: blue;
+   
+}
+.lock:hover{
+    color:blue;
+}
+
+.secondBlock .internal{
+    display: flex;
+    align-items: center;
+   
+    gap: 20px;
+}
+.secondBlock .internal >i{
+    height: 16px;
+    width: 16px;
+}
+.internal2 >p,
+.internal >p{
+    text-indent: 20px;
+}
+
